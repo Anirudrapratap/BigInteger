@@ -1,3 +1,5 @@
+#ifndef BIGINTEGER_H
+#define BIGINTEGER_H
 struct node
 {
     int data;
@@ -23,3 +25,4 @@ struct BigInteger rev(struct BigInteger res);
 struct BigInteger truncate(struct BigInteger res);
 int compare(struct BigInteger a,struct BigInteger b);
 struct BigInteger add3(struct BigInteger a,struct BigInteger b);
+#endif
